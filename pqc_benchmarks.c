@@ -211,7 +211,6 @@ int main() {
     fprintf(fsig, "Algorithm,Operation,Time(ms),CPU(%%),Memory(MB)\n");
     fprintf(fclassic, "Algorithm,Operation,Time(ms),CPU(%%),Memory(MB)\n");
 
-    printf("Running IEEE-grade light PQC benchmark (20 iterations) ...\n");
 
     // PQC KEM
     benchmark_kem(fkem, OQS_KEM_alg_ml_kem_512);
